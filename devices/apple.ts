@@ -14,6 +14,9 @@ export const appleDevices: DeviceDefinition[] = [
     frameWidth: 1400,
     frameHeight: 2948,
     framePath: "/devices/frames/iphone-16-pro-max.svg",
+    frameFormat: "svg",
+    year: 2024,
+    colorVariants: ["Black Titanium", "White Titanium", "Natural Titanium", "Desert Titanium"],
   },
   {
     id: "iphone-16-pro",
@@ -28,6 +31,9 @@ export const appleDevices: DeviceDefinition[] = [
     frameWidth: 1286,
     frameHeight: 2702,
     framePath: "/devices/frames/iphone-16-pro.svg",
+    frameFormat: "svg",
+    year: 2024,
+    colorVariants: ["Black Titanium", "White Titanium", "Natural Titanium", "Desert Titanium"],
   },
   {
     id: "iphone-16",
@@ -42,6 +48,9 @@ export const appleDevices: DeviceDefinition[] = [
     frameWidth: 1259,
     frameHeight: 2636,
     framePath: "/devices/frames/iphone-16.svg",
+    frameFormat: "svg",
+    year: 2024,
+    colorVariants: ["Black", "White", "Pink", "Teal", "Ultramarine"],
   },
   {
     id: "iphone-15",
@@ -56,6 +65,9 @@ export const appleDevices: DeviceDefinition[] = [
     frameWidth: 1259,
     frameHeight: 2636,
     framePath: "/devices/frames/iphone-15.svg",
+    frameFormat: "svg",
+    year: 2023,
+    colorVariants: ["Black", "Blue", "Green", "Yellow", "Pink"],
   },
   {
     id: "iphone-se-3",
@@ -70,6 +82,9 @@ export const appleDevices: DeviceDefinition[] = [
     frameWidth: 830,
     frameHeight: 1414,
     framePath: "/devices/frames/iphone-se-3.svg",
+    frameFormat: "svg",
+    year: 2022,
+    colorVariants: ["Midnight", "Starlight", "Product Red"],
   },
   {
     id: "ipad-pro-13",
@@ -84,6 +99,9 @@ export const appleDevices: DeviceDefinition[] = [
     frameWidth: 2164,
     frameHeight: 2852,
     framePath: "/devices/frames/ipad-pro-13.svg",
+    frameFormat: "svg",
+    year: 2024,
+    colorVariants: ["Space Black", "Silver"],
   },
   {
     id: "ipad-pro-11",
@@ -98,5 +116,8 @@ export const appleDevices: DeviceDefinition[] = [
     frameWidth: 1768,
     frameHeight: 2488,
     framePath: "/devices/frames/ipad-pro-11.svg",
+    frameFormat: "svg",
+    year: 2024,
+    colorVariants: ["Space Black", "Silver"],
   },
 ];

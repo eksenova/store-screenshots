@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 2948" fill="none">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1400" y2="2948" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2a2a2e"/>
+      <stop offset="1" stop-color="#1a1a1e"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="2948" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#444"/>
+      <stop offset="0.5" stop-color="#333"/>
+      <stop offset="1" stop-color="#444"/>
+    </linearGradient>
+    <mask id="m">
+      <rect width="1400" height="2948" rx="110" fill="white"/>
+      <rect x="40" y="40" width="1320" height="2868" rx="55" fill="black"/>
+    </mask>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Outer edge highlight -->
+  <rect x="1" y="1" width="1398" height="2946" rx="110" stroke="url(#edge)" stroke-width="2"/>
+  <!-- Device body with screen cutout -->
+  <rect width="1400" height="2948" rx="110" fill="url(#body)" mask="url(#m)"/>
+  <!-- Screen inner border -->
+  <rect x="39" y="39" width="1322" height="2870" rx="56" stroke="#111" stroke-width="2" fill="none"/>
+  <!-- Dynamic Island -->
+  <rect x="530" y="54" width="340" height="48" rx="24" fill="#1a1a1e"/>
+  <circle cx="620" cy="78" r="8" fill="#111"/>
+  <circle cx="620" cy="78" r="4" fill="#1a2a4a" opacity="0.7"/>
+  <!-- Side buttons -->
+  <!-- Power button (right) -->
+  <rect x="1397" y="680" width="6" height="160" rx="3" fill="#333"/>
+  <!-- Volume up (left) -->
+  <rect x="-3" y="600" width="6" height="120" rx="3" fill="#333"/>
+  <!-- Volume down (left) -->
+  <rect x="-3" y="740" width="6" height="120" rx="3" fill="#333"/>
+  <!-- Action button (left) -->
+  <rect x="-3" y="460" width="6" height="70" rx="3" fill="#333"/>
+  <!-- Bottom details -->
+  <!-- USB-C port -->
+  <rect x="630" y="2930" width="140" height="10" rx="5" fill="#111"/>
+  <!-- Speaker grilles (left) -->
+  <circle cx="440" cy="2935" r="4" fill="#111"/>
+  <circle cx="458" cy="2935" r="4" fill="#111"/>
+  <circle cx="476" cy="2935" r="4" fill="#111"/>
+  <circle cx="494" cy="2935" r="4" fill="#111"/>
+  <circle cx="512" cy="2935" r="4" fill="#111"/>
+  <circle cx="530" cy="2935" r="4" fill="#111"/>
+  <!-- Speaker grilles (right) -->
+  <circle cx="870" cy="2935" r="4" fill="#111"/>
+  <circle cx="888" cy="2935" r="4" fill="#111"/>
+  <circle cx="906" cy="2935" r="4" fill="#111"/>
+  <circle cx="924" cy="2935" r="4" fill="#111"/>
+  <circle cx="942" cy="2935" r="4" fill="#111"/>
+  <circle cx="960" cy="2935" r="4" fill="#111"/>
+</svg>

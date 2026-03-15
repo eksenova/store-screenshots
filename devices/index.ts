@@ -2,16 +2,16 @@ import { appleDevices } from "./apple";
 import { androidDevices } from "./android";
 import type { DeviceDefinition, DeviceBrand, DeviceCategory } from "./types";
 
-export type { DeviceDefinition, DeviceBrand, DeviceCategory } from "./types";
+export type { DeviceDefinition, DeviceBrand, DeviceCategory, FrameFormat } from "./types";
 export type { ScreenshotConfig } from "./types";
 
-/** All available devices */
+/** All built-in devices */
 export const allDevices: DeviceDefinition[] = [
   ...appleDevices,
   ...androidDevices,
 ];
 
-/** Get device by ID */
+/** Get device by ID (searches built-in devices) */
 export function getDevice(id: string): DeviceDefinition | undefined {
   return allDevices.find((d) => d.id === id);
 }

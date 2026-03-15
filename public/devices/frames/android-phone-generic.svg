@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 2000" fill="none">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1160" y2="2000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2c2c30"/>
+      <stop offset="1" stop-color="#1e1e22"/>
+    </linearGradient>
+    <mask id="m">
+      <rect width="1160" height="2000" rx="70" fill="white"/>
+      <rect x="40" y="40" width="1080" height="1920" rx="30" fill="black"/>
+    </mask>
+  </defs>
+  <rect x="1" y="1" width="1158" height="1998" rx="70" stroke="#3a3a3e" stroke-width="2"/>
+  <rect width="1160" height="2000" rx="70" fill="url(#body)" mask="url(#m)"/>
+  <rect x="39" y="39" width="1082" height="1922" rx="31" stroke="#111" stroke-width="2" fill="none"/>
+  <!-- Punch-hole camera -->
+  <circle cx="580" cy="72" r="10" fill="#111"/>
+  <circle cx="580" cy="72" r="5" fill="#0a0a12"/>
+  <!-- Side buttons -->
+  <rect x="1157" y="440" width="6" height="120" rx="3" fill="#333"/>
+  <rect x="1157" y="300" width="6" height="90" rx="3" fill="#333"/>
+  <!-- Bottom -->
+  <rect x="510" y="1984" width="140" height="9" rx="4.5" fill="#111"/>
+  <circle cx="380" cy="1988" r="3" fill="#111"/>
+  <circle cx="394" cy="1988" r="3" fill="#111"/>
+  <circle cx="408" cy="1988" r="3" fill="#111"/>
+  <circle cx="752" cy="1988" r="3" fill="#111"/>
+  <circle cx="766" cy="1988" r="3" fill="#111"/>
+  <circle cx="780" cy="1988" r="3" fill="#111"/>
+</svg>

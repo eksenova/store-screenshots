@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 2020" fill="none">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1300" y2="2020" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2a2a2e"/>
+      <stop offset="1" stop-color="#1c1c20"/>
+    </linearGradient>
+    <mask id="m">
+      <rect width="1300" height="2020" rx="40" fill="white"/>
+      <rect x="50" y="50" width="1200" height="1920" rx="14" fill="black"/>
+    </mask>
+  </defs>
+  <rect x="1" y="1" width="1298" height="2018" rx="40" stroke="#3a3a3e" stroke-width="2"/>
+  <rect width="1300" height="2020" rx="40" fill="url(#body)" mask="url(#m)"/>
+  <rect x="49" y="49" width="1202" height="1922" rx="15" stroke="#111" stroke-width="2" fill="none"/>
+  <!-- Camera -->
+  <circle cx="650" cy="24" r="5" fill="#111"/>
+  <circle cx="650" cy="24" r="2.5" fill="#1a2a4a" opacity="0.6"/>
+  <!-- Side buttons -->
+  <rect x="1297" y="300" width="6" height="100" rx="3" fill="#333"/>
+  <rect x="1297" y="430" width="6" height="70" rx="3" fill="#333"/>
+  <rect x="1297" y="520" width="6" height="70" rx="3" fill="#333"/>
+  <!-- Bottom USB-C -->
+  <rect x="580" y="2006" width="140" height="9" rx="4.5" fill="#111"/>
+  <!-- Speaker grilles -->
+  <circle cx="440" cy="2010" r="3" fill="#111"/>
+  <circle cx="454" cy="2010" r="3" fill="#111"/>
+  <circle cx="468" cy="2010" r="3" fill="#111"/>
+  <circle cx="482" cy="2010" r="3" fill="#111"/>
+  <circle cx="818" cy="2010" r="3" fill="#111"/>
+  <circle cx="832" cy="2010" r="3" fill="#111"/>
+  <circle cx="846" cy="2010" r="3" fill="#111"/>
+  <circle cx="860" cy="2010" r="3" fill="#111"/>
+</svg>

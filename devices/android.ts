@@ -14,6 +14,9 @@ export const androidDevices: DeviceDefinition[] = [
     frameWidth: 1424,
     frameHeight: 3072,
     framePath: "/devices/frames/pixel-9-pro.svg",
+    frameFormat: "svg",
+    year: 2024,
+    colorVariants: ["Obsidian", "Porcelain", "Hazel", "Rose Quartz"],
   },
   {
     id: "galaxy-s25",
@@ -28,6 +31,9 @@ export const androidDevices: DeviceDefinition[] = [
     frameWidth: 1520,
     frameHeight: 3200,
     framePath: "/devices/frames/galaxy-s25.svg",
+    frameFormat: "svg",
+    year: 2025,
+    colorVariants: ["Phantom Black", "Cream", "Icy Blue", "Mint", "Navy"],
   },
   {
     id: "android-phone-generic",
@@ -42,6 +48,8 @@ export const androidDevices: DeviceDefinition[] = [
     frameWidth: 1160,
     frameHeight: 2000,
     framePath: "/devices/frames/android-phone-generic.svg",
+    frameFormat: "svg",
+    year: 2024,
   },
   {
     id: "android-tablet-10",
@@ -56,5 +64,7 @@ export const androidDevices: DeviceDefinition[] = [
     frameWidth: 1300,
     frameHeight: 2020,
     framePath: "/devices/frames/android-tablet-10.svg",
+    frameFormat: "svg",
+    year: 2024,
   },
 ];

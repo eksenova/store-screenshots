@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2164 2852" fill="none">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="2164" y2="2852" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2a2a2e"/>
+      <stop offset="1" stop-color="#1a1a1e"/>
+    </linearGradient>
+    <mask id="m">
+      <rect width="2164" height="2852" rx="50" fill="white"/>
+      <rect x="50" y="50" width="2064" height="2752" rx="18" fill="black"/>
+    </mask>
+  </defs>
+  <rect x="1" y="1" width="2162" height="2850" rx="50" stroke="#3a3a3e" stroke-width="2"/>
+  <rect width="2164" height="2852" rx="50" fill="url(#body)" mask="url(#m)"/>
+  <rect x="49" y="49" width="2066" height="2754" rx="19" stroke="#111" stroke-width="2" fill="none"/>
+  <!-- Face ID camera (top center) -->
+  <circle cx="1082" cy="25" r="5" fill="#111"/>
+  <circle cx="1082" cy="25" r="2.5" fill="#1a2a4a" opacity="0.6"/>
+  <!-- Side buttons -->
+  <!-- Power (top right) -->
+  <rect x="2161" y="300" width="6" height="120" rx="3" fill="#333"/>
+  <!-- Volume (top right) -->
+  <rect x="2161" y="460" width="6" height="90" rx="3" fill="#333"/>
+  <rect x="2161" y="570" width="6" height="90" rx="3" fill="#333"/>
+  <!-- USB-C (bottom center) -->
+  <rect x="1012" y="2836" width="140" height="10" rx="5" fill="#111"/>
+  <!-- Speaker grilles bottom -->
+  <circle cx="870" cy="2840" r="3.5" fill="#111"/>
+  <circle cx="886" cy="2840" r="3.5" fill="#111"/>
+  <circle cx="902" cy="2840" r="3.5" fill="#111"/>
+  <circle cx="918" cy="2840" r="3.5" fill="#111"/>
+  <circle cx="934" cy="2840" r="3.5" fill="#111"/>
+  <circle cx="1230" cy="2840" r="3.5" fill="#111"/>
+  <circle cx="1246" cy="2840" r="3.5" fill="#111"/>
+  <circle cx="1262" cy="2840" r="3.5" fill="#111"/>
+  <circle cx="1278" cy="2840" r="3.5" fill="#111"/>
+  <circle cx="1294" cy="2840" r="3.5" fill="#111"/>
+  <!-- Speaker grilles top -->
+  <circle cx="870" cy="12" r="3.5" fill="#111"/>
+  <circle cx="886" cy="12" r="3.5" fill="#111"/>
+  <circle cx="902" cy="12" r="3.5" fill="#111"/>
+  <circle cx="918" cy="12" r="3.5" fill="#111"/>
+  <circle cx="1246" cy="12" r="3.5" fill="#111"/>
+  <circle cx="1262" cy="12" r="3.5" fill="#111"/>
+  <circle cx="1278" cy="12" r="3.5" fill="#111"/>
+  <circle cx="1294" cy="12" r="3.5" fill="#111"/>
+  <!-- Apple Pencil magnetic strip (right edge, subtle) -->
+  <line x1="2150" y1="800" x2="2150" y2="1400" stroke="#252528" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1424 3072" fill="none">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1424" y2="3072" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f0f0f0"/>
+      <stop offset="1" stop-color="#e0e0e0"/>
+    </linearGradient>
+    <mask id="m">
+      <rect width="1424" height="3072" rx="96" fill="white"/>
+      <rect x="40" y="40" width="1344" height="2992" rx="48" fill="black"/>
+    </mask>
+  </defs>
+  <rect x="1" y="1" width="1422" height="3070" rx="96" stroke="#ccc" stroke-width="2"/>
+  <rect width="1424" height="3072" rx="96" fill="url(#body)" mask="url(#m)"/>
+  <rect x="39" y="39" width="1346" height="2994" rx="49" stroke="#bbb" stroke-width="2" fill="none"/>
+  <!-- Punch-hole camera (center top) -->
+  <circle cx="712" cy="80" r="14" fill="#222"/>
+  <circle cx="712" cy="80" r="8" fill="#111"/>
+  <circle cx="712" cy="80" r="4" fill="#1a2a4a" opacity="0.5"/>
+  <!-- Pixel camera bar (back, visible as top stripe) -->
+  <rect x="0" y="0" width="1424" height="4" rx="2" fill="#d0d0d0"/>
+  <!-- Side buttons -->
+  <rect x="1421" y="680" width="6" height="140" rx="3" fill="#ccc"/>
+  <rect x="1421" y="500" width="6" height="100" rx="3" fill="#ccc"/>
+  <!-- Bottom -->
+  <rect x="642" y="3054" width="140" height="10" rx="5" fill="#ccc"/>
+  <circle cx="480" cy="3058" r="3.5" fill="#ccc"/>
+  <circle cx="496" cy="3058" r="3.5" fill="#ccc"/>
+  <circle cx="512" cy="3058" r="3.5" fill="#ccc"/>
+  <circle cx="912" cy="3058" r="3.5" fill="#ccc"/>
+  <circle cx="928" cy="3058" r="3.5" fill="#ccc"/>
+  <circle cx="944" cy="3058" r="3.5" fill="#ccc"/>
+</svg>
